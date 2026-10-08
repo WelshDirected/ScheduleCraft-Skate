@@ -1,0 +1,55 @@
+# --- Build output ---
+.gradle/
+build/
+out/
+bin/
+*.class
+
+# --- Dev client run folder (worlds, logs, screenshots, the local board pack) ---
+run/
+
+# --- IDEs / OS ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Schedule I content: never commit it ---
+# The converter writes the boards (models, textures, tuning) extracted from YOUR OWN install
+# into a local resource pack. That output belongs to the game's developers and must stay on your PC.
+S1Skate-Local/
+**/S1Skate-Local/
+**/assets/s1skate/s1/
+**/assets/s1skate/textures/s1/
+*.mesh.json
+boards.json
+resourcepacks/
+
+# Raw game files, dumps and decompiled code
+*.assets
+*.assets.resS
+*.resS
+*.resource
+*.bundle
+*.unity3d
+Assembly-CSharp*.dll
+Decompiled/
+decompiled/
+dumps/
+
+# Anything screenshot/video captured while testing
+screenshots/
+*.mp4

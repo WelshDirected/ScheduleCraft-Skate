@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.s1skate.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["CameraMixin", "EntityMixin", "LivingEntityMixin", "MinecraftMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

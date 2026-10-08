@@ -1,0 +1,10 @@
+{
+  "key.category.s1skate.skateboard": "Schedule I Skateboard",
+  "key.s1skate.toggle": "Ride / step off skateboard",
+  "key.s1skate.cycle": "Next skateboard",
+  "s1skate.mounted": "Riding: %s  (W push, S brake, A/D carve, hold Space to ollie, hold Right-click to look)",
+  "s1skate.mounted_placeholder": "Riding: %s (placeholder - run the converter for Schedule I's real boards)",
+  "s1skate.selected": "Skateboard: %s",
+  "s1skate.cant_ride": "You can't ride a skateboard right now",
+  "s1skate.too_steep": "Too steep to put the board down here"
+}

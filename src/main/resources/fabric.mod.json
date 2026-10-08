@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "s1skate",
+  "version": "${version}",
+  "name": "Schedule I Skateboard",
+  "description": "Schedule I's skateboard physics, camera and movement inside Minecraft. Press F2 to ride.",
+  "authors": ["Ashton", "Claude Code (AI-assisted)"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.s1skate.S1Skate"],
+    "client": ["dev.s1skate.client.S1SkateClient"]
+  },
+  "mixins": [
+    { "config": "s1skate.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
